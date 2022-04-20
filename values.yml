@@ -1,7 +1,7 @@
 Artifactory:
   server: partnership.jfrog.io #change to your servername
   intName: artifactory_integration
-  devRepo: workshop-docker-local
+  devRepo: workshop1-docker-local
   prodRepo: workshop-docker-prod-local
 PagerDuty:
   intName: pagerduty_integration
@@ -16,4 +16,4 @@ AWS:
 app:
   dockerImageName: partnership.jfrog.io/workshop-docker/pagerduty-workshop-app #change to your servername
   dockerFileLocation: workshop-app
-  buildName: pagerduty-workshop-app
+  buildName: pagerduty-workshop-app   
