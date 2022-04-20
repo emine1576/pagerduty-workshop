@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name:  workshop-app
-          image: imageName # IMPORTANT: Update!
+          image: workshop-app    
           imagePullPolicy: Always
           ports:
             - containerPort: 443
